@@ -52,7 +52,7 @@ end
 %%Finding true zero of function
 fun=@cos; %Write the function
 guess=1; %Initial guess
-real_result=fzero(fun,3); %Real zero for tolerance of the function
+real_result=fzero(fun,guess); %Real zero for tolerance of the function
 tolerance=abs(result-real_result); %Tolerance of zero
 
 fprintf('Zero found by the Bisection Method= %f\n',result);
