@@ -16,12 +16,12 @@ clear all
 clc
 
 %%Initializing Variables
-i=50; %Number of iterations
+n=50; %Number of iterations
 x0=0; %Initial lower limit
 x1=2; %Initial higher limit
 result=0; %Stores the resut
 
-for j=1:50
+for j=1:n
     y0=cos(x0); %Initial value at x0
     y1=cos(x1); %Initial value at x1
     
@@ -44,7 +44,7 @@ for j=1:50
             x0=x;
         end
     end
-    if(j==50) %When to assign to result if result is not found
+    if(j==n) %When to assign to result if result is not found
         result=x;
     end 
 end
