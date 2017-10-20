@@ -5,7 +5,7 @@ This is a repository for numerical methods for solving a equation or set of equa
 The numerical methods include/will include:
 1. Bisection Method- Done
 2. False Position or Regula Falsi Method- Done.
-3. Fixed Point Iteration
+3. Fixed Point Iteration- This is not an actual method, but a class of methods so I can obviously cannot code this method.
 4. Newton-Raphson's Method- Done
 5. Gauss-Siedel
 6. Gauss Jordan Method
